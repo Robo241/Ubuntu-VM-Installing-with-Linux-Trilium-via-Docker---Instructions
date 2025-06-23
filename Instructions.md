@@ -22,7 +22,7 @@ We also enable Docker to start automatically:
 * sudo systemctl start docker
 * sudo systemctl enable docker
 
-Then we create and start the Trilium container using docker run:
+Then we create and start the Trilium container using sudo docker run:
 
 * sudo docker run -d -p 8080:8080 --name trilium zadam/trilium
 
