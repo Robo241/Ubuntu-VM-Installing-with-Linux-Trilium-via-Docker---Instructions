@@ -41,5 +41,5 @@ http\://<your-VM-IP>:<configured-port>/setup
 (You might need to add `/setup` manually if you’re not redirected automatically.)
 
 ## Note:
-`localhost` won’t work if Trilium is running inside a virtual machine accessed via SSH. In that case, “localhost” refers to the VM itself, not your PC.
-Access via HTTP does not constitute an encrypted connection. If you are using Trilium productively or on a network, you may need to set up a reverse proxy with HTTPS.
+* `localhost` won’t work if Trilium is running inside a virtual machine accessed via SSH. In that case, “localhost” refers to the VM itself, not your PC.
+* Access via HTTP does not constitute an encrypted connection. If you are using Trilium productively or on a network, you may need to set up a reverse proxy with HTTPS.
