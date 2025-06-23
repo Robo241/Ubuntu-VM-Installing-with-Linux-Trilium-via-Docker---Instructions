@@ -32,11 +32,11 @@ You can change the **left** port if needed, e.g., from 8080:8080 to 8020:8080, i
 
 * sudo docker start trilium          (Starts the Trilium container. Must be done after every VM reboot)
 * sudo docker logs trilium           (Check who logged in)
-* curl http://localhost:<port>       (Local test to see if the server is reachable – use the configured port)
+* curl http://localhost:(port)       (Local test to see if the server is reachable – use the configured port)
 
 ## Accessing Trilium in the browser
 
-http\://<your-VM-IP>:<configured-port>/setup
+http://(your-VM-IP):(configured-port)/setup
 
 (You might need to add `/setup` manually if you’re not redirected automatically.)
 
